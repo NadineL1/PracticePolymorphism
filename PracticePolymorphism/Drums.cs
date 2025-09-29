@@ -6,8 +6,15 @@ using System.Threading.Tasks;
 
 namespace PracticePolymorphism
 {
-    internal class Drums
+    internal class Drums : Instrument
     {
-
+        public Drums()
+        {
+            
+        }
+        public override void Play()
+        {
+            Console.WriteLine();
+        }
     }
 }

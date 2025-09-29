@@ -9,5 +9,13 @@ namespace PracticePolymorphism
     internal class Instrument
     {
 
+        public Instrument()
+        {
+
+        }
+        public virtual void Play()
+        {
+            Console.WriteLine("The instrument is playing beautifully.");
+        }
     }
 }
