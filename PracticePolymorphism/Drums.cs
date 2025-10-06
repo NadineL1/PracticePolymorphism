@@ -14,7 +14,7 @@ namespace PracticePolymorphism
         }
         public override void Play()
         {
-            Console.WriteLine();
+            Console.WriteLine("Bang bang on the drums");
         }
     }
 }
